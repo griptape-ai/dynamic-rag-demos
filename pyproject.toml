@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dynamic-rag-demos"
+version = "0.1.0"
+description = "Griptape demos showing off dynamic RAG."
+authors = ["Vasily Vasinov <vasily@griptape.ai>"]
+license = "Apache 2.0"
+readme = "README.md"
+packages = [{include = "dynamic_rag_demos"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+griptape = "^0.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
